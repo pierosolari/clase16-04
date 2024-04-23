@@ -1,3 +1,7 @@
+import  Button  from "react-bootstrap/Button";
+
+const feather= require("feather-icons");
+setTimeout( ()  =>{feather.replace();},1000);
 const Aside = () => {
     return <aside>
      
@@ -23,7 +27,9 @@ const Aside = () => {
           <br></br>
           <input type="password" required />
           <br></br>
-          <input type="submit" /> <br></br><button></button>
+          <Button className= "btn btn-primary">
+        <i data-feather="filter"></i> Texto</Button>  
+         
 
         </div>
     </aside>;
