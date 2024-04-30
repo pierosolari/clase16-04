@@ -1,31 +1,62 @@
+import { Button } from 'react-bootstrap';
+import Carousel from 'react-bootstrap/Carousel';
+import { useNavigate } from 'react-router-dom';
+
+const feather = require('feather-icons');
+
+setTimeout(() => {
+    feather.replace();
+}, 1000);
+const muebles = [
+  {
+      name: "Mesa de Centro Funes ",
+      slug: "mueble-1",
+      description: "Marca: Just Home Collection -Modelo: FUNES - Ancho: 120 cm -Alto: 40 cm -Profundidad: 40 cm", 
+      picture:"https://sodimac.scene7.com/is/image/SodimacPeru/8986452_01?wid=1500&hei=1500&qlt=70",
+    },
+    
+      
+  {
+      name: "Mesa de Centro Salem",
+      slug: "mueble-2",
+      description: "Miel/Plomo",
+      picture:"https://sodimac.scene7.com/is/image/SodimacPeru/3740498_01?wid=1500&hei=1500&qlt=70",
+  },
+  {
+      name: "Ropero",
+      slug: "mueble-3",
+      description: "6 Puertas 1 Cajones 1 Zapatera",
+      picture:"https://sodimac.scene7.com/is/image/SodimacPeru/8904847_01?wid=1500&hei=1500&qlt=70",
+  },
+];
+
 const Main = () => {
+  const navigate= useNavigate();
+  const handleClick= (slug) => {
+     navigate("/detalle/"+slug)
+  }
     return <main>
         
-        <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
-        <div id="carouselExample" className="carousel slide">
-          <div className="carousel-inner">
-            <div className="carousel-item active">
-              <img src="https://sodimac.scene7.com/is/image/SodimacPeru/8789789_02?wid=1500&hei=1500&qlt=70" className="d-block w-100" alt="..."/>
-            </div>
-            <div class="carousel-item">
-              <img src="https://sodimac.scene7.com/is/image/SodimacPeru/8789789_12?wid=1500&hei=1500&qlt=70" className="d-block w-100" alt="..."/>
-            </div>
-            <div className="carousel-item">
-              <img src="https://sodimac.scene7.com/is/image/SodimacPeru/8789789_13?wid=1500&hei=1500&qlt=70" className="d-block w-100" alt="..."/>
-            </div>
-          </div>
-          <button clasName="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Previous</span>
-          </button>
-          <button className="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span className="carousel-control-next-icon" aria-hidden="true"></span>
-            <span className="visually-hidden">Next</span>
-          </button>
-        </div>
+        
+        <Carousel>
+    
+            {
+                muebles.map(it => {
+                    return (<Carousel.Item>
+                        <img className='w-100 dark-image' src={it.picture}></img>
+                        <Carousel.Caption>
+                            <h3>{it.name}</h3>
+                            <p>{it.description}</p>
+                            <Button className= "btn btn-primary"  onClick={() =>handleClick(it.slug)}> Ver Detalle</Button> 
+                        </Carousel.Caption>
+                    </Carousel.Item>);
+                })
+            }
+              
+        </Carousel>
         
        
-      </div>
+     
     </main>;
 }
 
