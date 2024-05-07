@@ -24,7 +24,7 @@ const Partea = ({ partea }) => {
       <br></br>
       
      
-      <Button className= "send_btn"  class="nav-link active" href=""> login </Button> 
+      <Button className= "send_btn"  class="nav-link active" href="/sout/"> login </Button> 
 
      
   

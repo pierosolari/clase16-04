@@ -41,7 +41,7 @@ const Aside = () => {
           <br></br>
           <br></br>
          
-          <Button className= "send_btn"  class="nav-link active" href="/"> CREAR </Button> 
+          <Button className= "send_btn"  class="nav-link active" href="sout/"> CREAR </Button> 
 
          
       
