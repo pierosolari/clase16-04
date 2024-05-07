@@ -1,37 +1,56 @@
 import  Button  from "react-bootstrap/Button";
 
+
+
 const feather= require("feather-icons");
 setTimeout( ()  =>{feather.replace();},1000);
 const Aside = () => {
     return <aside>
      
-        <div class=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
-          <h1>---- Registro   ----- </h1>
-         
-          <br></br>
+       
+        <blockquote class="blockquote text-center">
+        <ul class="nav">
+     <li class="nav-item">
+              <h1>CREAR NUEVA CUENTA</h1>
+              <h6>¿Ya registrado? <a class="nav-link active" href="detalle/"  >Iniciar sesion</a></h6> 
+  
+       
+
+
           <br></br>
           <form action=""></form>
-          <h1> Nombres y Apellidos: </h1>
+          <h6> NOMBRE</h6> 
+        <input  type="text" required/>
           <br></br>
-          <input type="text" required/>
           <br></br>
-          <h1> Email: </h1>
-          <br></br>
+          <h6> CORREO </h6>
           <input type="email" required/>
           <br></br>
-          <h1> Numero: </h1>
           <br></br>
-          <input type="number" required/>
+          <h6> CONTRASEÑA </h6>
+          <input type="text" required/>
           <br></br>
-          <h1> Contraseña: </h1>
           <br></br>
-          <input type="password" required />
-          <br></br>
-          <Button className= "btn btn-primary">
-        <i data-feather="filter"></i> Texto</Button>  
+          <h6> FECHA DE NACIMIENTO </h6>
+          <div className="col-md-12">
+                    
+          <input type="date" required />
          
+                    </div>
+          
+          <br></br>
+          <br></br>
+         
+          <Button className= "send_btn"  class="nav-link active" href="/"> CREAR </Button> 
 
-        </div>
+         
+      
+        </li> 
+        </ul>
+
+        </blockquote>
+
+        
     </aside>;
 }
 

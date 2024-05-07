@@ -11,34 +11,45 @@ import {
     createBrowserRouter,
     RouterProvider,
 } from "react-router-dom";
-  import Single from './single';
+ 
 import Basic from './layout/basic';
+import Inicio from "./inicio";
+import Footer from "./footer";
 const router = createBrowserRouter([
     {
         path: "/",
         element: <Basic />,
+        
         children: [
             {
                 path: '',
                 element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
                     <div className="col-md-8">
+                        
                         <Main></Main>
                     </div>
-                    <div className="col-md-4">
-                        <Aside></Aside>
+                    </div>
                     </div>
                 </>
             },
             {
-                path: "detalle/:slug",
-                element: <Single />,
+                path: "detalle/",
+               
+                element: <Inicio />,
+               
             },
+           
         ],
+        
     },
   ]);
   
-
-
+  
 
 
 

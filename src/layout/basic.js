@@ -15,12 +15,7 @@ const Basic = () => {
         <Header></Header>
          
         <Breadcrumb>
-      <Breadcrumb.Item href="#">Inicio</Breadcrumb.Item>
-      <Breadcrumb.Item href="https://getbootstrap.com/docs/4.0/components/breadcrumb/">
-        Muebles
-        <i data-feather="filter"></i> </Breadcrumb.Item>
-      
-      <Breadcrumb.Item active>Informacion</Breadcrumb.Item>
+    
       
     </Breadcrumb>
         <div className="container">
