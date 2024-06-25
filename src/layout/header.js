@@ -2,33 +2,22 @@ import { Link } from "react-router-dom";
 
 const Header = () => {
     return <header>
-        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+   <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
-                <a class="navbar-brand" to="/">INDUSTRIAS R&R</a>
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span className="navbar-toggler-icon"></span>
-        </button>
+            <img src="https://cdn.discordapp.com/attachments/1226707700545486913/1254969616363687997/image.png?ex=667b6d08&amp;is=667a1b88&amp;hm=b86b0a44a76561fc5902be1654911e28073757e8ecc66491aba4bd85d9d1beef&amp;" alt="Industrias R&amp;R"></img>
+           
+        < div class= "col-md-8 ">  
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul className="navbar-nav me-auto mb-2 mb-lg-0">
-            <li className="nav-item">
-            <Link class="nav-link " to="/">Inicio </Link>
-            </li>
-           
-            <li className="nav-item dropdown">
-              <a className="nav-link" href="/sout/"> Muebles </a>
-             
-            </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">Informacion</a>
-            </li>
-            
-          </ul>
-          <form className="d-sm-inline-flex" role="search" >
-            <input className="form-control me-2"  type="search"  placeholder="Buscar" aria-label="Buscar" ></input>
-           
-          </form>
+        <ul>
+                <li><Link class="nav-link " to="/"><a href="#">INICIO</a></Link>
+                </li>
+                <li><Link class="nav-link " to="/sout/"><a href="#">MUEBLES</a></Link></li>
+                <li><Link class="nav-link " to="/info/"><a href="#">CONTACTO</a></Link></li>
+            </ul>
+          
         </div>
-            </div>
+        </div>
+        </div>
         </nav>
     </header>;
 }

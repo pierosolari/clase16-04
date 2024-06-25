@@ -14,7 +14,7 @@ import {
  
 import Basic from './layout/basic';
 import Inicio from "./inicio";
-import Footer from "./footer";
+import Informacion from "./informacion";
 import Cosas from "./cosas";
 const router = createBrowserRouter([
     {
@@ -68,6 +68,31 @@ const router = createBrowserRouter([
                 element: <Cosas />,
                
             },
+
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "info/",
+               
+                element: <Informacion />,
+               
+            },
+            
         ],
         
     },

@@ -2,10 +2,38 @@
   
 
 .btn-primary{
-    background: rgb(2, 1, 1);
+    background: rgb(20, 20, 20);
 }
 div{
-background-image: linear-gradient(rgba(31, 30, 30, 0.048), rgba(248, 248, 250, 0.322)),
+background-image: linear-gradient(rgb(248, 248, 248), rgba(252, 252, 252, 0.048)),
 url("https://www.google.com/url?sa=i&url=https%3A%2F%2Fes.logodownload.org%2Fsodimac-logo%2F&psig=AOvVaw2EgLfQpY7sqwCaFvN-6WfH&ust=1713973603244000&source=images&cd=vfe&opi=89978449&ved=0CBAQjRxqFwoTCKjx1ubY2IUDFQAAAAAdAAAAABAE");
 
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 5;
+    padding: 5;
+}
+
+header {
+    background-color: #ffffff;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    
+    gap: 180px ;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #808080;
+    padding: 10px 25px;
+    border-radius: 5px;
+  
 }

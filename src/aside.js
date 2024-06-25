@@ -8,47 +8,50 @@ const Aside = () => {
     return <aside>
      
        
-        <blockquote class="blockquote text-center">
         <ul class="nav">
      <li class="nav-item">
+     <blockquote class="blockquote text-center">
               <h1>CREAR NUEVA CUENTA</h1>
               <h6>¿Ya registrado? <a class="nav-link active" href="detalle/"  >Iniciar sesion</a></h6> 
-  
+              </blockquote>
        
 
 
           <br></br>
-          <form action=""></form>
+         
           <h6> NOMBRE</h6> 
-        <input  type="text" required/>
+        <input  type="text"  size="40" required/>
           <br></br>
           <br></br>
           <h6> CORREO </h6>
-          <input type="email" required/>
+          <input type="email" size="40" required/>
           <br></br>
           <br></br>
           <h6> CONTRASEÑA </h6>
-          <input type="text" required/>
+          
+          <label >
+          <input type="text"  size="40" required/>
+          </label>
           <br></br>
           <br></br>
           <h6> FECHA DE NACIMIENTO </h6>
-          <div className="col-md-12">
+     
                     
-          <input type="date" required />
+          <input class="large-date"  type="date"  required />
          
-                    </div>
+                   
           
           <br></br>
           <br></br>
-         
+          <blockquote class="blockquote text-center">
           <Button className= "send_btn"  class="nav-link active" href="sout/"> CREAR </Button> 
-
+          </blockquote>
          
       
         </li> 
         </ul>
 
-        </blockquote>
+       
 
         
     </aside>;
