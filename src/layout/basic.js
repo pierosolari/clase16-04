@@ -5,6 +5,8 @@ import Footer from "./footer";
 
 import { Outlet } from "react-router-dom";
 import Breadcrumb from 'react-bootstrap/Breadcrumb';
+import Cosas from "../cosas";
+
 const feather = require('feather-icons');
 setTimeout( ()  =>{feather.replace();},1000);
 const Basic = () => {
@@ -22,10 +24,12 @@ const Basic = () => {
             <div className="row">
                 <div className="col-md-8">
                     
-          
-         
+             
+              
                 </div>
-                <Outlet></Outlet>
+                <Outlet>
+                
+                </Outlet>
             </div>
         </div>
         <Footer></Footer>

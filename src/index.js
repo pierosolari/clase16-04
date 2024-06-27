@@ -63,7 +63,7 @@ const router = createBrowserRouter([
             },
             
             {
-                path: "sout/",
+                path: "catalogo/",
                
                 element: <Cosas />,
                

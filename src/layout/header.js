@@ -11,7 +11,15 @@ const Header = () => {
         <ul>
                 <li><Link class="nav-link " to="/"><a href="#">INICIO</a></Link>
                 </li>
-                <li><Link class="nav-link " to="/sout/"><a href="#">MUEBLES</a></Link></li>
+                <div class="dropdown">
+                <Link class="nav-link " to="/catalogo/"> <button class="dropdown-toggle">MUEBLES <span class="arrow">^</span></button></Link>
+  <ul class="dropdown-menu">
+    <li><Link class="nav-link " to="/info/"> Muebles de sala</Link></li>
+    <li>Muebles de dormitorio</li>
+    <li>Muebles de comedor</li>
+  </ul>
+</div>
+           
                 <li><Link class="nav-link " to="/info/"><a href="#">CONTACTO</a></Link></li>
             </ul>
           
