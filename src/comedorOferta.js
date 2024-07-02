@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel';
 import Igcomedor1 from "./data/igcomedor1.json";
 import Igcomedor2 from "./data/igcomedor2.json";
 import Igcomedor3 from "./data/igcomedor3.json";

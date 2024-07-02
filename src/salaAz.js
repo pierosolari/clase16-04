@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import Carousel from 'react-bootstrap/Carousel';
 import Igsala1 from "./data/igsala1.json";
 import Igsala2 from "./data/igsala2.json";
 import Igsala3 from "./data/igsala3.json";

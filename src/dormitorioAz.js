@@ -1,4 +1,4 @@
-
+import Carousel from 'react-bootstrap/Carousel';
 
 import { Link } from "react-router-dom";
 import Igdormitorio1 from "./data/igdormitorio1.json";
