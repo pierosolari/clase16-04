@@ -22,6 +22,15 @@ import SalaAz from "./salaAz";
 import Salamayorp from "./salamayorp";
 import Salamenorp from "./salamenorp";
 import Salaoferta from "./salaoferta";
+import DormitorioAz from "./dormitorioAz";
+import DormitorioMayorp from "./dormitorioMayorp";
+import DormitorioMenorp from "./dormitorioMenorp"; 
+import DormitorioOferta from "./dormitorioOferta"; 
+import ComedorAz from "./comedorAz";
+import ComedorMayorp from "./ comedorMayorp";
+import ComedorMenorp from "./comedorMenorp";
+import ComedorOferta from "./comedorOferta ";
+
 const router = createBrowserRouter([
     {
         path: "/",
@@ -208,9 +217,193 @@ const router = createBrowserRouter([
             },
             
             {
+                path: "catalogo.mueblesd+dormitorio+A.Z/",
+               
+                element: <DormitorioAz />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+dormitorio+mayor+precio/",
+               
+                element: <DormitorioMayorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+dormitorio+menor+precio/",
+               
+                element: <DormitorioMenorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+dormitorio+oferta/",
+               
+                element: <DormitorioOferta />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
                 path: "catalogo.mueblesd+comedor/",
                
                 element: <Cosas3 />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+comedor+A.Z/",
+               
+                element: <ComedorAz />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+comedor+mayor+precio/",
+               
+                element: <ComedorMayorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+comedor+menor+precio/",
+               
+                element: <ComedorMenorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+comedor+oferta/",
+               
+                element: <ComedorOferta />,
                
             },
 
