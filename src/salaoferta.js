@@ -38,17 +38,115 @@ const Salaoferta = () => {
   </div>
 </div>
 
-         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
-         < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
-         < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala2.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
+
+         < div class= "col-md-4  text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala4.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+         </div>
+
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala3.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+         </div>
 
 
          <div class=" bg p-3 text-dark-emphasis  ">
          < div class= "container">
          < div class= "row">
-         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
-         < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
-         < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala5.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+         </div>
+         < div class= "col-md-4  text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala1.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+         </div>
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala6.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+         </div>
   
          </div>
   </div>

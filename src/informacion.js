@@ -11,6 +11,7 @@ const Informacion = () => {
        
          < div class= "col-md-6 text-center">  <img src="https://st2.depositphotos.com/3665639/6831/v/950/depositphotos_68310947-stock-illustration-pictograph-of-cell-phone.jpg" class="img-thumbnail" alt="..." width="800" height="800"></img>
          <h1>Telefono </h1> 
+         <h1>+51 961940120 </h1> 
          <h1>Desire Alvarado </h1> </div>
   
  

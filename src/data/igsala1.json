@@ -5,6 +5,7 @@
  
         "description": "Marca: Linea Brasil - Modelo: RECIFE - Ancho: 200 cm - Alto: 70 cm - Profundidad: 36 cm - Color: Avellana/Blanco - TV: 70 in - 2 puertas - Armado: Media - Estilo: Vintage Moderno", 
         "precio": "S/ 2099",  
+         "oferta": "De S/ 2099  a solo S/ 1999 ",  
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/2718669_02/w=1500,h=1500,fit=pad"
       },
       
@@ -13,7 +14,8 @@
         "name": "Mesa de TV 70 Recife ",
       
         "description": "Marca: Linea Brasil - Modelo: RECIFE - Ancho: 200 cm - Alto: 70 cm - Profundidad: 36 cm - Color: Avellana/Blanco - TV: 70 in - 2 puertas - Armado: Media - Estilo: Vintage Moderno",
-        "precio": "S/ 2099",  
+        "precio": "S/ 2099",
+        "oferta": "De S/ 2099  a solo S/ 1999 ",  
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/2718669_02/w=1500,h=1500,fit=pad"
     },
     {
@@ -21,6 +23,7 @@
      
         "description": "Marca: Linea Brasil - Modelo: RECIFE - Ancho: 200 cm - Alto: 70 cm - Profundidad: 36 cm - Color: Avellana/Blanco - TV: 70 in - 2 puertas - Armado: Media - Estilo: Vintage Moderno",
         "precio": "S/ 2099",  
+        "oferta": "De S/ 2099  a solo S/ 1999 ",
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/2718669_02/w=1500,h=1500,fit=pad"
     }
     

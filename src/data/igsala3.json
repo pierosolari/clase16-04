@@ -4,7 +4,8 @@
         
  
         "description": "Modelo: Pula - Ancho: 182 cm - Alto: 78 cm - Profundidad: 90 cm - Color: Rojo - Material: Poliéster y Madera - Peso máximo: 240 kg", 
-        "precio": "S/ 579",  
+        "precio": "S/ 579", 
+        "oferta": "De S/ 579  a solo S/ 499 ",  
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/3869660_01/w=1500,h=1500,fit=pad"
       },
       
@@ -14,6 +15,7 @@
       
         "description": "Modelo: Pula - Ancho: 182 cm - Alto: 78 cm - Profundidad: 90 cm - Color: Rojo - Material: Poliéster y Madera - Peso máximo: 240 kg",
         "precio": "S/ 579",  
+       "oferta": "De S/ 579  a solo S/ 499 ",   
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/3869660_01/w=1500,h=1500,fit=pad"
     },
     {
@@ -21,6 +23,7 @@
      
         "description": "Modelo: Pula - Ancho: 182 cm - Alto: 78 cm - Profundidad: 90 cm - Color: Rojo - Material: Poliéster y Madera - Peso máximo: 240 kg",
         "precio": "S/ 579",  
+       "oferta": "De S/ 579  a solo S/ 499 ",  
         "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/3869660_01/w=1500,h=1500,fit=pad"
     }
     

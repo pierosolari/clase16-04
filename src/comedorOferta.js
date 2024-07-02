@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import Igcomedor1 from "./data/igcomedor1.json";
+import Igcomedor2 from "./data/igcomedor2.json";
+import Igcomedor3 from "./data/igcomedor3.json";
+import Igcomedor4 from "./data/igcomedor4.json";
+import Igcomedor5 from "./data/igcomedor5.json";
+import Igcomedor6 from "./data/igcomedor6.json";
 const ComedorOferta = () => {
     return <comedoroferta>
       
@@ -32,18 +38,117 @@ const ComedorOferta = () => {
   </div>
 </div>
 
-         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
-         < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
-         < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
+< div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor3.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
 
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor2.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
+
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor1.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
 
          <div class=" bg p-3 text-dark-emphasis  ">
          < div class= "container">
          < div class= "row">
-         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
-         < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
-         < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
-  
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor4.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
+
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor5.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
+
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igcomedor6.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.oferta}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
+
          </div>
   </div>
   </div>
