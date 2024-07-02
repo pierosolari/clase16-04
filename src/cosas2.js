@@ -9,14 +9,18 @@ const Cosas2 = () => {
      
     <div class="container">
 
-  <select id="sortOptions">
-    <option value="" disabled selected>Elegir según</option>
-    <option value="az">A - Z</option>
-    <option value="ofertas">Ofertas</option>
-    <option value="menorPrecio">Menor Precio</option>
-    <option value="mayorPrecio">Mayor Precio</option>
+    <div class="dropdown">
+  <button class="dropbtn">Elegir según ▼</button>
+  <div class="dropdown-content">
+
+    <a href="#">A-Z</a>
+    <a href="#">Ofertas</a>
+    <a href="#">Menor Precio</a>
+    <a href="#">Mayor Precio</a>
     
-    </select>
+  </div>
+</div>
+
 
  
   

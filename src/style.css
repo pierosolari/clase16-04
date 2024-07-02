@@ -177,11 +177,11 @@ nav ul li a {
 }
 
 .dropbtn {
-  background-color: #f1f1f1;
+  background-color: #818181;
   color: black;
-  padding: 10px;
-  font-size: 16px;
-  border: 1px solid #ddd;
+  padding: 5px;
+  font-size: 22px;
+  border: 1px solid #868383;
   cursor: pointer;
 }
 

@@ -9,14 +9,16 @@ const Salaoferta = () => {
      
     <div class="container">
 
-  <select id="sortOptions">
-    <option value="" disabled selected>Elegir según</option>
-    <option value="az">A - Z</option>
-    <option value="ofertas">Ofertas</option>
-    <option value="menorPrecio">Menor Precio</option>
-    <option value="mayorPrecio">Mayor Precio</option>
-    
-    </select>
+    <div class="dropdown">
+  <button class="dropbtn">Ofertas ▼</button>
+  <div class="dropdown-content">
+
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+A.Z/">A-Z</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+menor+precio/">Menor Precio</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+mayor+precio/">Mayor Precio</Link></a>   
+
+  </div>
+</div>
 
  
   

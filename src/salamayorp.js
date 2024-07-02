@@ -8,15 +8,17 @@ const Salamayorp = () => {
          <h1>Muebles de sala:</h1>
      
     <div class="container">
-
-  <select id="sortOptions">
-    <option value="" disabled selected>Elegir según</option>
-    <option value="az">A - Z</option>
-    <option value="ofertas">Ofertas</option>
-    <option value="menorPrecio">Menor Precio</option>
-    <option value="mayorPrecio">Mayor Precio</option>
+      
+    <div class="dropdown">
+  <button class="dropbtn">Mayor Precio ▼</button>
+  <div class="dropdown-content">
     
-    </select>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+A.Z/">A-Z</Link></a>    
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+oferta/">Ofertas</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+menor+precio/">Menor Precio</Link></a>
+
+  </div>
+</div>
 
  
   

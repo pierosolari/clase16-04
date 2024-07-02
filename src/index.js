@@ -19,6 +19,9 @@ import Cosas from "./cosas";
 import Cosas2 from "./cosas2";
 import Cosas3 from "./cosas3";
 import SalaAz from "./salaAz";
+import Salamayorp from "./salamayorp";
+import Salamenorp from "./salamenorp";
+import Salaoferta from "./salaoferta";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -93,6 +96,75 @@ const router = createBrowserRouter([
                 path: "catalogo.mueblesd+sala+A.Z/",
                
                 element: <SalaAz />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+sala+mayor+precio/",
+               
+                element: <Salamayorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+sala+menor+precio/",
+               
+                element: <Salamenorp />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+sala+oferta/",
+               
+                element: <Salaoferta />,
                
             },
             {

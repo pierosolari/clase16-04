@@ -14,10 +14,12 @@ const Cosas = () => {
     <div class="dropdown">
   <button class="dropbtn">Elegir según ▼</button>
   <div class="dropdown-content">
-    <a href="#">A-Z</a>
-    <a href="#">Ofertas</a>
-    <a href="#">Menor Precio</a>
-    <a href="#">Mayor Precio</a>
+
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+A.Z/">A-Z</Link></a>  
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+oferta/">Ofertas</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+menor+precio/">Menor Precio</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+sala+mayor+precio/">Mayor Precio</Link></a>
+    
   </div>
 </div>
 
