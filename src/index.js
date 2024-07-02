@@ -16,6 +16,9 @@ import Basic from './layout/basic';
 import Inicio from "./inicio";
 import Informacion from "./informacion";
 import Cosas from "./cosas";
+import Cosas2 from "./cosas2";
+import Cosas3 from "./cosas3";
+import SalaAz from "./salaAz";
 const router = createBrowserRouter([
     {
         path: "/",
@@ -63,9 +66,79 @@ const router = createBrowserRouter([
             },
             
             {
-                path: "catalogo/",
+                path: "catalogo.mueblesd+sala/",
                
                 element: <Cosas />,
+               
+            },
+            
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+sala+A.Z/",
+               
+                element: <SalaAz />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+dormitorio/",
+               
+                element: <Cosas2 />,
+               
+            },
+            {
+                path: '',
+                element: <>
+                <div class="container">
+                    <div class="row">
+                    <div className="col-4">
+                        <Aside></Aside>
+                    </div>
+                    <div className="col-md-8">
+                        
+                        <Main></Main>
+                    </div>
+                    </div>
+                    </div>
+                </>
+            },
+            
+            {
+                path: "catalogo.mueblesd+comedor/",
+               
+                element: <Cosas3 />,
                
             },
 

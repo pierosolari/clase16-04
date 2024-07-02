@@ -44,7 +44,7 @@ const Aside = () => {
           <br></br>
           <br></br>
           <blockquote class="blockquote text-center">
-          <Button className= "send_btn"  class="nav-link active" href="/catalogo/"> CREAR </Button> 
+          <Button className= "send_btn"  class="nav-link active" href="/catalogo.mueblesd+sala/"> CREAR </Button> 
           </blockquote>
          
       

@@ -12,11 +12,11 @@ const Header = () => {
                 <li><Link class="nav-link " to="/"><a href="#">INICIO</a></Link>
                 </li>
                 <div class="dropdown">
-                <Link class="nav-link " to="/catalogo/"> <button class="dropdown-toggle">MUEBLES <span class="arrow">^</span></button></Link>
+                <button class="dropdown-toggle">MUEBLES <span class="arrow">^</span></button>
   <ul class="dropdown-menu">
-    <li><Link class="nav-link " to="/info/"> Muebles de sala</Link></li>
-    <li>Muebles de dormitorio</li>
-    <li>Muebles de comedor</li>
+    <li><Link class="nav-link " to="/catalogo.mueblesd+sala/"> Muebles de sala</Link></li>
+    <li><Link class="nav-link " to="/catalogo.mueblesd+dormitorio/"> Muebles de dormitorio</Link></li>
+    <li><Link class="nav-link " to="/catalogo.mueblesd+comedor/"> Muebles de comedor</Link></li>
   </ul>
 </div>
            

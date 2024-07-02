@@ -27,7 +27,7 @@ const Partea = ({ partea }) => {
       <br></br>
       
       <blockquote class="blockquote text-center">
-      <Button className= "send_btn"  class="nav-link active" href="/catalogo/"> Inicio de sesion </Button> 
+      <Button className= "send_btn"  class="nav-link active" href="/catalogo.mueblesd+sala/"> Inicio de sesion </Button> 
 
       </blockquote>
   

@@ -1,27 +1,25 @@
-import Carousel from 'react-bootstrap/Carousel';
-import muebles from "./data/muebles.json";
 import { Link } from "react-router-dom";
-const Cosas = () => {
-    return <cosas>
+const ComedorOferta = () => {
+    return <comedoroferta>
       
          <div class=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
          < div class= "container">
          < div class= "row">
-         <h1>Muebles de sala:</h1>
+         <h1>Muebles de comedor:</h1>
      
     <div class="container">
 
-    <div class="dropdown">
-  <button class="dropbtn">Elegir según ▼</button>
-  <div class="dropdown-content">
-    <a href="#">A-Z</a>
-    <a href="#">Ofertas</a>
-    <a href="#">Menor Precio</a>
-    <a href="#">Mayor Precio</a>
-  </div>
-</div>
+  <select id="sortOptions">
+    <option value="" disabled selected>Elegir según</option>
+    <option value="az">A - Z</option>
+    <option value="ofertas">Ofertas</option>
+    <option value="menorPrecio">Menor Precio</option>
+    <option value="mayorPrecio">Mayor Precio</option>
+    
+    </select>
 
  
+  
   <div class="search-section">
     <div class="search-bar">
       <input type="text" placeholder="Busca tu comodidad"/>
@@ -32,21 +30,7 @@ const Cosas = () => {
   </div>
 </div>
 
-         < div class= "col-md-4 text-center">
-           <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
-            <Carousel> {
-              muebles.map(it => {
-              return (<Carousel.Item>
-                <img className='w-100 dark-image' src={it.picture}></img>
-                <h8>{it.name}</h8>
-                 <Carousel.Caption> 
-                </Carousel.Caption>
-            </Carousel.Item>);
-             })
-             }
-          </Carousel>
-           </div>
-           </div>
+         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
          < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
          < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
 
@@ -64,7 +48,7 @@ const Cosas = () => {
   </div>
   </div>
   </div>
-    </cosas>;
+    </comedoroferta>;
 }
 
-export default Cosas;
+export default ComedorOferta;

@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Dormitorio Su Majestad",
+        
+ 
+        "description": "Marca: Paraiso - Modelo: Su Majestad - Color: Blanco - Material: Tejido de punto - Garantía: 8 años colchón, 5 años tarima, 1 año cabecera", 
+        "precio": "S/ 1,329.90",  
+        "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4223586_01/w=1500,h=1500,fit=pad"
+      },
+      
+        
+    {
+        "name": "Dormitorio Su Majestad",
+      
+        "description": "Marca: Paraiso - Modelo: Su Majestad - Color: Blanco - Material: Tejido de punto - Garantía: 8 años colchón, 5 años tarima, 1 año cabecera",
+        "precio": "S/ 1,329.90",  
+        "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4223586_01/w=1500,h=1500,fit=pad"
+    },
+    {
+        "name": "Dormitorio Su Majestad",
+     
+        "description": "Marca: Paraiso - Modelo: Su Majestad - Color: Blanco - Material: Tejido de punto - Garantía: 8 años colchón, 5 años tarima, 1 año cabecera",
+        "precio": "S/ 1,329.90",  
+        "picture":"https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/sodimacPE/4223586_01/w=1500,h=1500,fit=pad"
+    }
+    
+  ]
