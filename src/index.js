@@ -27,9 +27,9 @@ import DormitorioMayorp from "./dormitorioMayorp";
 import DormitorioMenorp from "./dormitorioMenorp"; 
 import DormitorioOferta from "./dormitorioOferta"; 
 import ComedorAz from "./comedorAz";
-import ComedorMayorp from "./ comedorMayorp";
+import ComedorMayorp from "./comedorMayorp";
 import ComedorMenorp from "./comedorMenorp";
-import ComedorOferta from "./comedorOferta ";
+import ComedorOferta from "./comedorOferta";
 
 const router = createBrowserRouter([
     {

@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import Igsala1 from "./data/igsala1.json";
+import Igsala2 from "./data/igsala2.json";
+import Igsala3 from "./data/igsala3.json";
+import Igsala4 from "./data/igsala4.json";
+import Igsala5 from "./data/igsala5.json";
+import Igsala6 from "./data/igsala6.json";
 const SalaAz = () => {
     return <salaaz>
       
@@ -32,7 +38,23 @@ const SalaAz = () => {
   </div>
 </div>
 
-         < div class= "col-md-4 text-center"> <h1>PIERO JAVIER SOLARI JULCA</h1>  </div>
+         < div class= "col-md-4 text-center"> 
+         <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
+            <Carousel> {
+              Igsala2.map(it => {
+              return (<Carousel.Item>
+                <img className='w-100 dark-image' src={it.picture}></img>
+                <h8>{it.name}</h8>
+           
+                <h8>{it.precio}</h8>
+                 <Carousel.Caption> 
+                </Carousel.Caption>
+            </Carousel.Item>);
+             })
+             }
+          </Carousel>
+           </div>
+          </div>
          < div class= "col-md-4  text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
          < div class= "col-md-4 text-center">  <h1>PIERO JAVIER SOLARI JULCA</h1></div>
 

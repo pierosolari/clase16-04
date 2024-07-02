@@ -1,4 +1,10 @@
 import { Link } from "react-router-dom";
+import Igsala1 from "./data/igsala1.json";
+import Igsala2 from "./data/igsala2.json";
+import Igsala3 from "./data/igsala3.json";
+import Igsala4 from "./data/igsala4.json";
+import Igsala5 from "./data/igsala5.json";
+import Igsala6 from "./data/igsala6.json";
 const Salaoferta = () => {
     return <salaoferta>
       

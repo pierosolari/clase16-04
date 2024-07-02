@@ -13,9 +13,9 @@ const DormitorioMenorp = () => {
   <button class="dropbtn">Menor Precio ▼</button>
   <div class="dropdown-content">
 
-    <a href="#">A-Z</a>
-    <a href="#">Ofertas</a>
-    <a href="#">Mayor Precio</a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+A.Z/">A-Z</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+oferta/">Ofertas</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+mayor+precio/">Mayor Precio</Link></a>
 
   </div>
 </div>

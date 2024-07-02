@@ -13,9 +13,9 @@ const ComedorOferta = () => {
   <button class="dropbtn">Ofertas ▼</button>
   <div class="dropdown-content">
 
-    <a href="#">A-Z</a>
-    <a href="#">Menor Precio</a>
-    <a href="#">Mayor Precio</a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+comedor+A.Z/">A-Z</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+comedor+menor+precio/">Menor Precio</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+comedor+mayor+precio/">Mayor Precio</Link></a>
 
   </div>
 </div>

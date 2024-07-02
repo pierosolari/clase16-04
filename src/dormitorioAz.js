@@ -1,3 +1,5 @@
+
+
 import { Link } from "react-router-dom";
 const DormitorioAz = () => {
     return <dormitorioAz>
@@ -13,9 +15,9 @@ const DormitorioAz = () => {
   <button class="dropbtn">A-Z ▼</button>
   <div class="dropdown-content">
 
-    <a href="#">Ofertas</a>
-    <a href="#">Menor Precio</a>
-    <a href="#">Mayor Precio</a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+oferta/">Ofertas</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+menor+precio/">Menor Precio</Link></a>
+    <a href="#"><Link class="nav-link " to="/catalogo.mueblesd+dormitorio+mayor+precio/">Mayor Precio</Link></a>
     
   </div>
 </div>
