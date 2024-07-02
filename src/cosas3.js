@@ -4,7 +4,7 @@ import Carousel from 'react-bootstrap/Carousel';
 
 import { Link } from "react-router-dom";
 import Igcomedor1 from "./data/igcomedor1.json";
-
+import Igcomedor2 from "./data/igcomedor2.json";
 import Igcomedor3 from "./data/igcomedor3.json";
 import Igcomedor4 from "./data/igcomedor4.json";
 import Igcomedor5 from "./data/igcomedor5.json";
@@ -62,7 +62,7 @@ const Cosas3 = () => {
            < div class= "col-md-4 text-center">
            <div className=" bg p-3 text-dark-emphasis bs-dark-border-subtle border border-dark-subtle rounded-3 ">
             <Carousel> {
-              Gcomedor2.map(it => {
+              Igcomedor2.map(it => {
               return (<Carousel.Item>
                 <img className='w-100 dark-image' src={it.picture}></img>
                 <h8>{it.name}</h8>
