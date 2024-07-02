@@ -22,7 +22,16 @@ const Header = () => {
            
                 <li><Link class="nav-link " to="/info/"><a href="#">CONTACTO</a></Link></li>
             </ul>
-          
+            <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width "/>
+    <title>Botón de Cuenta</title>
+    <div class="account-btn">
+        <div class="icon"></div>
+        <div class="dropdown">
+            <a href="#">VER CUENTA</a>
+            <a href="#" class="cerrar-sesion">CERRAR SESIÓN</a>
+        </div>
+    </div>
         </div>
         </div>
         </div>
